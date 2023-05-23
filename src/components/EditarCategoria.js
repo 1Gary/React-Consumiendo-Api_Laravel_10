@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 export default function EditarCategoria()
 {
     const navigate = useNavigate();
+    //agregamos un comentario
 
     const [inputs, setInputs] = useState([]);
 
